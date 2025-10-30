@@ -49,5 +49,5 @@ git commit -m "Auto update: $DATE"
 git push
 
 # Email the CSV as attachment
-echo "The report is updated." | mail -s "Snellius SBU usage report is updated ($DATE)" -a "$WORKDIR/eport_$DATE.csv" j.ju@uva.nl
+echo "The report is updated." | mail -s "Snellius SBU usage report is updated ($DATE)" -a "$WORKDIR/report_$DATE.csv" j.ju@uva.nl
 
