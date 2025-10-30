@@ -58,3 +58,4 @@ git add .
 git commit -m "auto update: $DATE"
 git push
 
+echo "The report is updated." | mail -s "Snellius SBU usage report is updated ($DATE)" -a "$WORKDIR/report_$DATE.csv" j.ju@uva.nl
