@@ -1,6 +1,6 @@
 #!/bin/bash
 ACCOUNT="gpuuva065"
-OUT_RAW="sbu_raw/raw.txt"
+OUT_RAW="raw.txt"
 OUT_MD="README.md"
 BACKUP_DIR="sbu_reports"
 
@@ -15,8 +15,7 @@ awk -v DATE="$DATE" '
 BEGIN {
   print "# Snellius SBU Usage Report"
   print ""
-  print "**Account:** " ENVIRON["ACCOUNT"]
-  print "**Generated:** " DATE
+  print "**Latest update:** " DATE
   print ""
 }
 /^[0-9]{4}-[0-9]{2}-[0-9]{2}/ {
@@ -29,7 +28,6 @@ END {
   for (d in dates) { date_list[n++]=d }
   asort(date_list);
 
-  print "### Usage Summary"
   print ""
   printf "| %-12s |", "User";
   for (i=1;i<=n;i++) printf " %s |", date_list[i];

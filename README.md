@@ -1,9 +1,7 @@
 # Snellius SBU Usage Report
 
-**Account:** 
-**Generated:** 2025-10-30 17:47
+**Latest update:** 2025-10-30 17:49
 
-### Usage Summary
 
 | User         | 2025-10-28 | 2025-10-29 | Sum |
 |--------------|------------|------------|------------|
