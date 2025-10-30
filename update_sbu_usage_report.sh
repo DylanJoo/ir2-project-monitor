@@ -3,8 +3,8 @@ ACCOUNT="gpuuva065"
 WORKDIR="$HOME/sbu_reports"
 mkdir -p "$WORKDIR"
 
-OUT_RAW="$WORKDIR/raw.txt"
-OUT_CSV="$WORKDIR/report.csv"
+OUT_RAW="raw.txt"
+OUT_CSV="report.csv"
 DATE=$(date +"%Y-%m-%d_%H-%M")
 
 # Collect usage
@@ -43,6 +43,11 @@ END {
 # Timestamped backup
 cp "$OUT_CSV" "$WORKDIR/report_$DATE.csv"
 
+# Git control
+git add .
+git commit -m "Auto update: $DATE"
+git push
+
 # Email the CSV as attachment
-echo "Attached is the SBU usage report $ACCOUNT until $DATE." | mail -s "Snellius SBU usage report of IR2 students ($DATE)" -a "$WORKDIR/report_$DATE.csv" j.ju@uva.nl
+echo "The report is updated." | mail -s "Snellius SBU usage report is updated ($DATE)" -a "$WORKDIR/eport_$DATE.csv" j.ju@uva.nl
 
