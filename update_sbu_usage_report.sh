@@ -4,7 +4,7 @@ WORKDIR="$HOME/sbu_reports"
 mkdir -p "$WORKDIR"
 
 OUT_RAW="raw.txt"
-OUT_CSV="report.csv"
+OUT_CSV="README.md"
 DATE=$(date +"%Y-%m-%d_%H-%M")
 
 # Collect usage
