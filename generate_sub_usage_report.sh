@@ -7,8 +7,6 @@ BACKUP_DIR="sbu_reports"
 DATE=$(date +"%Y-%m-%d %H:%M")
 DATE_FILE=$(date +"%Y-%m-%d_%H-%M")
 
-mkdir -p "$BACKUP_DIR"
-
 # Collect usage data
 accuse --account "$ACCOUNT" --sbu -d > "$OUT_RAW"
 
