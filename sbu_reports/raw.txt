@@ -1,9 +1,0 @@
-Usage data for account gpuuva065
-
-Month      Account    User                    SBUs      Restituted
----------- ---------- ------------ --------------- --------------- 
-2025-10-28 gpuuva065  scur1736                 0.3             0.0
-2025-10-29 gpuuva065  scur1736                10.4             0.0
-Totals for this user                          10.7             0.0
-
-Totals for this account                       10.7             0.0
