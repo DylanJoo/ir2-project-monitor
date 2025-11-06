@@ -12,7 +12,8 @@ Totals for this user                          10.0             0.0
 Totals for this user                         438.9             0.0
 
 2025-11-04 gpuuva065  scur1707               173.8             0.0
-Totals for this user                         173.8             0.0
+2025-11-05 gpuuva065  scur1707                35.0             0.0
+Totals for this user                         208.7             0.0
 
 2025-11-04 gpuuva065  scur1708                32.2             0.0
 Totals for this user                          32.2             0.0
@@ -20,14 +21,19 @@ Totals for this user                          32.2             0.0
 2025-11-01 gpuuva065  scur1713                15.2             0.0
 Totals for this user                          15.2             0.0
 
+2025-11-05 gpuuva065  scur1716               311.2             0.0
+Totals for this user                         311.2             0.0
+
 2025-10-30 gpuuva065  scur1719                18.3             0.0
 2025-11-03 gpuuva065  scur1719                 2.1             0.0
 2025-11-04 gpuuva065  scur1719               715.7             0.0
-Totals for this user                         736.1             0.0
+2025-11-05 gpuuva065  scur1719              2545.0             0.0
+Totals for this user                        3281.1             0.0
 
 2025-11-03 gpuuva065  scur1733                 0.4             0.0
 2025-11-04 gpuuva065  scur1733                50.0             0.0
-Totals for this user                          50.5             0.0
+2025-11-05 gpuuva065  scur1733              3217.4             0.0
+Totals for this user                        3267.8             0.0
 
 2025-10-28 gpuuva065  scur1736                 0.3             0.0
 2025-10-29 gpuuva065  scur1736                10.4             0.0
@@ -37,4 +43,4 @@ Totals for this user                         298.0             0.0
 2025-11-04 gpuuva065  scur1744                33.7             0.0
 Totals for this user                          33.7             0.0
 
-Totals for this account                     1788.3             0.0
+Totals for this account                     7896.9             0.0
