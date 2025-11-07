@@ -2,6 +2,9 @@ Usage data for account gpuuva065
 
 Month      Account    User                    SBUs      Restituted
 ---------- ---------- ------------ --------------- --------------- 
+2025-11-06 gpuuva065  scur1687                25.5             0.0
+Totals for this user                          25.5             0.0
+
 2025-10-31 gpuuva065  scur1688                 2.0             0.0
 2025-11-02 gpuuva065  scur1688                 8.0             0.0
 Totals for this user                          10.0             0.0
@@ -11,9 +14,13 @@ Totals for this user                          10.0             0.0
 2025-11-03 gpuuva065  scur1698               305.2             0.0
 Totals for this user                         438.9             0.0
 
+2025-11-06 gpuuva065  scur1700                24.5             0.0
+Totals for this user                          24.5             0.0
+
 2025-11-04 gpuuva065  scur1707               173.8             0.0
 2025-11-05 gpuuva065  scur1707                35.0             0.0
-Totals for this user                         208.7             0.0
+2025-11-06 gpuuva065  scur1707                 4.2             0.0
+Totals for this user                         213.0             0.0
 
 2025-11-04 gpuuva065  scur1708                32.2             0.0
 Totals for this user                          32.2             0.0
@@ -22,18 +29,27 @@ Totals for this user                          32.2             0.0
 Totals for this user                          15.2             0.0
 
 2025-11-05 gpuuva065  scur1716               311.2             0.0
-Totals for this user                         311.2             0.0
+2025-11-06 gpuuva065  scur1716                 0.5             0.0
+Totals for this user                         311.7             0.0
 
 2025-10-30 gpuuva065  scur1719                18.3             0.0
 2025-11-03 gpuuva065  scur1719                 2.1             0.0
 2025-11-04 gpuuva065  scur1719               715.7             0.0
 2025-11-05 gpuuva065  scur1719              2545.0             0.0
-Totals for this user                        3281.1             0.0
+2025-11-06 gpuuva065  scur1719               487.9             0.0
+Totals for this user                        3769.0             0.0
+
+2025-11-06 gpuuva065  scur1724                 0.2             0.0
+Totals for this user                           0.2             0.0
+
+2025-11-06 gpuuva065  scur1731               260.5             0.0
+Totals for this user                         260.5             0.0
 
 2025-11-03 gpuuva065  scur1733                 0.4             0.0
 2025-11-04 gpuuva065  scur1733                50.0             0.0
-2025-11-05 gpuuva065  scur1733              3217.4             0.0
-Totals for this user                        3267.8             0.0
+2025-11-05 gpuuva065  scur1733              3696.8             0.0
+2025-11-06 gpuuva065  scur1733             10497.3             0.0
+Totals for this user                       14244.6             0.0
 
 2025-10-28 gpuuva065  scur1736                 0.3             0.0
 2025-10-29 gpuuva065  scur1736                10.4             0.0
@@ -43,4 +59,4 @@ Totals for this user                         298.0             0.0
 2025-11-04 gpuuva065  scur1744                33.7             0.0
 Totals for this user                          33.7             0.0
 
-Totals for this account                     7896.9             0.0
+Totals for this account                    19676.9             0.0
