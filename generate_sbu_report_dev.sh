@@ -31,7 +31,7 @@ END {
   print ""
   printf "| %-12s |", "User";
   for (i=1;i<=n;i++) printf " %s |", date_list[i];
-  printf " Sum |\n";
+  printf " Sum | Ratio \n";
 
   printf "|--------------|";
   for (i=1;i<=n+1;i++) printf "------------|";
