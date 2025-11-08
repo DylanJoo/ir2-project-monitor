@@ -47,7 +47,7 @@ END {
       sum+=val;
     }
     ratio = (sum / TOTAL) * 100;
-    printf " %8.1f | %9.4f |\n", sum, ratio;
+    printf " %8.1f | %3.1f |\n", sum, ratio;
   }
 }' "$OUT_RAW" > "$OUT_MD"
 
