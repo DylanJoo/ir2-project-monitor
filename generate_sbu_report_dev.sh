@@ -11,7 +11,7 @@ DATE_FILE=$(date +"%Y-%m-%d_%H-%M")
 accuse --account "$ACCOUNT" --sbu -d > "$OUT_RAW"
 
 # Build Markdown report
-awk -v DATE="$DATE" ' -v TOTAL=2000000
+awk -v DATE="$DATE" -v TOTAL=2000000 '
 BEGIN {
   print "# Snellius SBU Usage Report"
   print ""
