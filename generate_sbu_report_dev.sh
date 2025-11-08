@@ -34,7 +34,7 @@ END {
   printf " Sum | Ratio |\n";
 
   printf "|--------------|";
-  for (i=1;i<=n+1;i++) printf "------------|";
+  for (i=1;i<=n+2;i++) printf "------------|";
   printf "\n";
 
   for (u in users) {
