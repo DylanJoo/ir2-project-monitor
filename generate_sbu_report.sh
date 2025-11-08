@@ -11,7 +11,7 @@ DATE_FILE=$(date +"%Y-%m-%d_%H-%M")
 accuse --account "$ACCOUNT" --sbu -d > "$OUT_RAW"
 
 # Build Markdown report
-awk -v DATE="$DATE" '
+awk -v DATE="$DATE" -v TOTAL=100000 '
 BEGIN {
   print "# Snellius SBU Usage Report"
   print ""
@@ -31,10 +31,10 @@ END {
   print ""
   printf "| %-12s |", "User";
   for (i=1;i<=n;i++) printf " %s |", date_list[i];
-  printf " Sum |\n";
+	  printf " Sum | Ratio (0.1M per group) |\n";
 
   printf "|--------------|";
-  for (i=1;i<=n+1;i++) printf "------------|";
+  for (i=1;i<=n+2;i++) printf "------------|";
   printf "\n";
 
   for (u in users) {
@@ -46,7 +46,8 @@ END {
       printf " %8.1f |", val;
       sum+=val;
     }
-    printf " %8.1f |\n", sum;
+    ratio = (sum / TOTAL) * 100;
+    printf " %8.1f | %3.1f |\n", sum, ratio;
   }
 }' "$OUT_RAW" > "$OUT_MD"
 
