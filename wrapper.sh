@@ -8,6 +8,8 @@ while true; do
 
 	echo "[RUN] [$(date)] Generating report..." 
 	bash generate_sbu_report.sh
+	REPORT_PID=$!
+	echo "[RUN] The PID for the report monitor is: $REPORT_PID"
 	echo "[RUN] [$(date)] The report is degenerated and updated..." 
 
        	echo "[SLEEP] Waiting $INTERVAL_HOURS hour(s)..."
