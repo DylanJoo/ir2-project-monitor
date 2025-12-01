@@ -1,6 +1,6 @@
 # run on login node
 
-INTERVAL_HOURS=6
+INTERVAL_HOURS=12
 
 cd /home/scur1678/ir2-project-monitor
 
