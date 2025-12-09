@@ -36,7 +36,7 @@ BEGIN {
   usage[user,date]+=sbu;
   users[user]=1; dates[date]=1;
 
-  g = group[user]; group_usage[g] += sbu;
+  g=group[user]; group_usage[g]+=sbu;
 }
 END {
   n=0;
@@ -46,18 +46,20 @@ END {
   print ""
   print "## Group-level Usage Summary"
   print ""
-  printf "| Group | Total SBU | Ratio |\n";
-  printf "|-------|-----------|-------|\n";
+  printf "| Group | Total SBU | Ratio | Users |\n";
+  printf "|-------|-----------|-------| ------|\n";
   all_groups_total = 0
   for (g in groups) {
     total = group_usage[g] + 0
     ratio = (total / TOTAL) * 100
     all_groups_total += total
-    printf "| %-8s | %9.1f | %5.1f%% |\n", g, total, ratio
+    members = group_members[g]
+    if (members == "") members = "-"
+    else sub(/, $/, "", members)   # remove trailing comma+space
+    printf "| %-8s | %9.1f | %5.1f%% |\n", g, total, ratio, member
   }
   all_groups_ratio = (all_groups_total / TOTAL) * 100
   printf "| %-8s | %9.1f | %5.1f%% |\n", "TOTAL", all_groups_total, all_groups_ratio
-
 
   print ""
   print "## User-level Usage Summary"
