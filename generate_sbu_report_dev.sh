@@ -71,11 +71,15 @@ END {
   printf "| Group | Total SBU | Ratio |\n";
   printf "|-------|-----------|-------|\n";
 
+  all_groups_total = 0
   for (g in groups) {
     total = group_usage[g] + 0
     ratio = (total / TOTAL) * 100
+    all_groups_total += total
     printf "| %-8s | %9.1f | %5.1f%% |\n", g, total, ratio
   }
+  all_groups_ratio = (all_groups_total / TOTAL) * 100
+  printf "| %-8s | %9.1f | %5.1f%% |\n", "TOTAL", grand_total, total_ratio
 
 }' "$OUT_RAW" > "$OUT_MD"
 
