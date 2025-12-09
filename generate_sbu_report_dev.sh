@@ -11,7 +11,7 @@ DATE_FILE=$(date +"%Y-%m-%d_%H-%M")
 accuse --account "$ACCOUNT" --sbu -d > "$OUT_RAW"
 
 # Build Markdown report
-awk -v DATE="$DATE" -v TOTAL=100000 '
+awk -v DATE="$DATE" -v TOTAL=2000000 '
 BEGIN {
   print "# Snellius SBU Usage Report"
   print ""
@@ -31,7 +31,7 @@ END {
   print ""
   printf "| %-12s |", "User";
   for (i=1;i<=n;i++) printf " %s |", date_list[i];
-	  printf " Sum | Ratio (0.1M per group) |\n";
+	  printf " Sum | Usage (%) |\n";
 
   printf "|--------------|";
   for (i=1;i<=n+2;i++) printf "------------|";
@@ -59,4 +59,5 @@ git add .
 git commit -m "auto update: $DATE"
 git push
 
-echo "The report is updated." | mail -s "Snellius SBU usage report is updated ($DATE)" -a "$BACKUP_DIR/report_$DATE_FILE.md" j.ju@uva.nl
+echo "The report is updated."
+# echo "The report is updated." | mail -s "Snellius SBU usage report is updated ($DATE)" -a "$BACKUP_DIR/report_$DATE_FILE.md" j.ju@uva.nl
