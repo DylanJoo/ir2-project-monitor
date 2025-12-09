@@ -79,7 +79,7 @@ END {
     printf "| %-8s | %9.1f | %5.1f%% |\n", g, total, ratio
   }
   all_groups_ratio = (all_groups_total / TOTAL) * 100
-  printf "| %-8s | %9.1f | %5.1f%% |\n", "TOTAL", grand_total, total_ratio
+  printf "| %-8s | %9.1f | %5.1f%% |\n", "TOTAL", all_groups_total, all_groups_ratio
 
 }' "$OUT_RAW" > "$OUT_MD"
 
