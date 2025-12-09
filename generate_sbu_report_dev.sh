@@ -17,11 +17,26 @@ BEGIN {
   print ""
   print "**Latest update:** " DATE
   print ""
+
+  # Read group mapping (TSV)
+  FS="\t"
+  while ((getline < "mapping.tsv") > 0) {
+    if ($1 == "Snellius account") continue;  # skip header
+    user = $1
+    grp  = $2
+    if (grp == "" || grp == "-") grp = "UNGROUPED"
+    group[user] = grp
+    groups[grp] = 1
+  }
+  FS=" "  # restore default field splitting for accuse output
 }
+
 /^[0-9]{4}-[0-9]{2}-[0-9]{2}/ {
   date=$1; user=$3; sbu=$4;
   usage[user,date]+=sbu;
   users[user]=1; dates[date]=1;
+
+  g = group[user]; group_usage[g] += sbu;
 }
 END {
   n=0;
@@ -49,6 +64,19 @@ END {
     ratio = (sum / TOTAL) * 100;
     printf " %8.1f | %3.1f |\n", sum, ratio;
   }
+
+  print ""
+  print "## Group-level Usage Summary"
+  print ""
+  printf "| Group | Total SBU | Ratio |\n";
+  printf "|-------|-----------|-------|\n";
+
+  for (g in groups) {
+    total = group_usage[g] + 0
+    ratio = (total / TOTAL) * 100
+    printf "| %-8s | %9.1f | %5.1f%% |\n", g, total, ratio
+  }
+
 }' "$OUT_RAW" > "$OUT_MD"
 
 # Create timestamped backup
