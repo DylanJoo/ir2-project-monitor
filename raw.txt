@@ -15,8 +15,9 @@ Month      Account    User                    SBUs      Restituted
 2025-12-04 gpuuva065  scur1684              6404.2             0.0
 2025-12-05 gpuuva065  scur1684              4416.9             0.0
 2025-12-06 gpuuva065  scur1684              2756.1             0.0
-2025-12-07 gpuuva065  scur1684              1592.0             0.0
-Totals for this user                       54215.4             0.0
+2025-12-07 gpuuva065  scur1684              2578.3             0.0
+2025-12-08 gpuuva065  scur1684             34901.9             0.0
+Totals for this user                       90103.7             0.0
 
 2025-11-15 gpuuva065  scur1685                26.9             0.0
 2025-11-18 gpuuva065  scur1685                14.1             0.0
@@ -50,7 +51,8 @@ Totals for this user                        5529.4             0.0
 2025-12-03 gpuuva065  scur1688                40.2             0.0
 2025-12-06 gpuuva065  scur1688                38.7             0.0
 2025-12-07 gpuuva065  scur1688                33.2             0.0
-Totals for this user                        2285.3             0.0
+2025-12-08 gpuuva065  scur1688               132.8             0.0
+Totals for this user                        2418.1             0.0
 
 2025-11-10 gpuuva065  scur1689                30.3             0.0
 2025-11-11 gpuuva065  scur1689                 0.2             0.0
@@ -81,7 +83,8 @@ Totals for this user                       12663.8             0.0
 2025-12-01 gpuuva065  scur1691              3098.3             0.0
 2025-12-03 gpuuva065  scur1691              2444.6             0.0
 2025-12-04 gpuuva065  scur1691              5370.3             0.0
-Totals for this user                       19981.3             0.0
+2025-12-08 gpuuva065  scur1691              1344.2             0.0
+Totals for this user                       21325.5             0.0
 
 2025-11-12 gpuuva065  scur1693                16.2             0.0
 Totals for this user                          16.2             0.0
@@ -96,7 +99,8 @@ Totals for this user                          16.2             0.0
 2025-12-05 gpuuva065  scur1694              1298.8             0.0
 2025-12-06 gpuuva065  scur1694              2263.7             0.0
 2025-12-07 gpuuva065  scur1694              7557.5             0.0
-Totals for this user                       18417.3             0.0
+2025-12-08 gpuuva065  scur1694               355.8             0.0
+Totals for this user                       18773.2             0.0
 
 2025-11-09 gpuuva065  scur1695               910.2             0.0
 2025-11-11 gpuuva065  scur1695                74.8             0.0
@@ -110,7 +114,9 @@ Totals for this user                        1221.0             0.0
 2025-12-03 gpuuva065  scur1697                45.2             0.0
 2025-12-04 gpuuva065  scur1697                26.0             0.0
 2025-12-05 gpuuva065  scur1697               128.5             0.0
-Totals for this user                         221.9             0.0
+2025-12-07 gpuuva065  scur1697                 2.8             0.0
+2025-12-08 gpuuva065  scur1697               191.3             0.0
+Totals for this user                         416.0             0.0
 
 2025-10-30 gpuuva065  scur1698                20.9             0.0
 2025-10-31 gpuuva065  scur1698               112.7             0.0
@@ -131,7 +137,8 @@ Totals for this user                         221.9             0.0
 2025-12-03 gpuuva065  scur1698              1046.6             0.0
 2025-12-05 gpuuva065  scur1698              1381.5             0.0
 2025-12-06 gpuuva065  scur1698               716.2             0.0
-Totals for this user                       98168.2             0.0
+2025-12-08 gpuuva065  scur1698                89.0             0.0
+Totals for this user                       98257.1             0.0
 
 2025-11-06 gpuuva065  scur1700                24.5             0.0
 2025-11-10 gpuuva065  scur1700               881.0             0.0
@@ -144,7 +151,8 @@ Totals for this user                       98168.2             0.0
 2025-12-04 gpuuva065  scur1700                55.8             0.0
 2025-12-05 gpuuva065  scur1700               558.0             0.0
 2025-12-06 gpuuva065  scur1700                 1.5             0.0
-Totals for this user                        2208.9             0.0
+2025-12-08 gpuuva065  scur1700               308.1             0.0
+Totals for this user                        2517.0             0.0
 
 2025-11-10 gpuuva065  scur1701                55.2             0.0
 2025-11-11 gpuuva065  scur1701               252.1             0.0
@@ -173,7 +181,8 @@ Totals for this user                        3161.5             0.0
 2025-12-05 gpuuva065  scur1705                23.0             0.0
 2025-12-06 gpuuva065  scur1705               182.5             0.0
 2025-12-07 gpuuva065  scur1705              2326.3             0.0
-Totals for this user                        8082.7             0.0
+2025-12-08 gpuuva065  scur1705              2072.8             0.0
+Totals for this user                       10155.5             0.0
 
 2025-11-11 gpuuva065  scur1706               121.2             0.0
 2025-11-12 gpuuva065  scur1706              7314.2             0.0
@@ -211,7 +220,8 @@ Totals for this user                       13247.9             0.0
 2025-11-18 gpuuva065  scur1708               121.9             0.0
 2025-11-20 gpuuva065  scur1708                 4.2             0.0
 2025-12-07 gpuuva065  scur1708               828.4             0.0
-Totals for this user                        1924.4             0.0
+2025-12-08 gpuuva065  scur1708              3467.7             0.0
+Totals for this user                        5392.1             0.0
 
 2025-11-12 gpuuva065  scur1709                 3.3             0.0
 2025-11-13 gpuuva065  scur1709               148.1             0.0
@@ -221,7 +231,8 @@ Totals for this user                        1924.4             0.0
 2025-12-04 gpuuva065  scur1709                25.6             0.0
 2025-12-05 gpuuva065  scur1709                43.1             0.0
 2025-12-06 gpuuva065  scur1709              8734.3             0.0
-Totals for this user                        9198.2             0.0
+2025-12-08 gpuuva065  scur1709               292.5             0.0
+Totals for this user                        9490.7             0.0
 
 2025-11-12 gpuuva065  scur1710                 4.4             0.0
 2025-11-13 gpuuva065  scur1710              1082.2             0.0
@@ -235,7 +246,8 @@ Totals for this user                        9198.2             0.0
 2025-12-03 gpuuva065  scur1710               437.2             0.0
 2025-12-04 gpuuva065  scur1710              3199.9             0.0
 2025-12-05 gpuuva065  scur1710              1802.7             0.0
-Totals for this user                       10644.9             0.0
+2025-12-08 gpuuva065  scur1710              8390.1             0.0
+Totals for this user                       19035.0             0.0
 
 2025-11-11 gpuuva065  scur1711              1572.2             0.0
 2025-11-12 gpuuva065  scur1711             10500.2             0.0
@@ -278,7 +290,8 @@ Totals for this user                        9026.3             0.0
 2025-12-02 gpuuva065  scur1716                63.7             0.0
 2025-12-03 gpuuva065  scur1716               130.3             0.0
 2025-12-04 gpuuva065  scur1716                10.6             0.0
-Totals for this user                        1449.1             0.0
+2025-12-08 gpuuva065  scur1716                 2.8             0.0
+Totals for this user                        1451.9             0.0
 
 2025-10-30 gpuuva065  scur1719                18.3             0.0
 2025-11-03 gpuuva065  scur1719                 2.1             0.0
@@ -301,7 +314,8 @@ Totals for this user                        1449.1             0.0
 2025-12-05 gpuuva065  scur1719              3215.8             0.0
 2025-12-06 gpuuva065  scur1719              9111.9             0.0
 2025-12-07 gpuuva065  scur1719              7448.2             0.0
-Totals for this user                       36725.8             0.0
+2025-12-08 gpuuva065  scur1719             16185.0             0.0
+Totals for this user                       52910.8             0.0
 
 2025-11-06 gpuuva065  scur1724                 0.2             0.0
 2025-11-07 gpuuva065  scur1724                12.9             0.0
@@ -320,7 +334,8 @@ Totals for this user                          33.9             0.0
 2025-11-20 gpuuva065  scur1731              1883.3             0.0
 2025-12-02 gpuuva065  scur1731                87.1             0.0
 2025-12-03 gpuuva065  scur1731                45.0             0.0
-Totals for this user                        4441.0             0.0
+2025-12-08 gpuuva065  scur1731              1052.0             0.0
+Totals for this user                        5493.0             0.0
 
 2025-11-12 gpuuva065  scur1732                29.2             0.0
 2025-11-13 gpuuva065  scur1732               160.6             0.0
@@ -353,7 +368,8 @@ Totals for this user                       33027.8             0.0
 2025-12-04 gpuuva065  scur1735               659.9             0.0
 2025-12-05 gpuuva065  scur1735                41.4             0.0
 2025-12-06 gpuuva065  scur1735              1929.3             0.0
-Totals for this user                        2757.2             0.0
+2025-12-08 gpuuva065  scur1735                10.0             0.0
+Totals for this user                        2767.2             0.0
 
 2025-10-28 gpuuva065  scur1736                 0.3             0.0
 2025-10-29 gpuuva065  scur1736                10.4             0.0
@@ -381,8 +397,9 @@ Totals for this user                       19610.3             0.0
 2025-12-02 gpuuva065  scur1737              1527.5             0.0
 2025-12-03 gpuuva065  scur1737               193.2             0.0
 2025-12-04 gpuuva065  scur1737               165.4             0.0
-2025-12-07 gpuuva065  scur1737               707.0             0.0
-Totals for this user                        4308.4             0.0
+2025-12-07 gpuuva065  scur1737               901.3             0.0
+2025-12-08 gpuuva065  scur1737              1593.3             0.0
+Totals for this user                        6096.1             0.0
 
 2025-11-07 gpuuva065  scur1738                14.3             0.0
 2025-11-10 gpuuva065  scur1738                81.4             0.0
@@ -403,11 +420,13 @@ Totals for this user                        4308.4             0.0
 2025-12-05 gpuuva065  scur1738             14695.9             0.0
 2025-12-06 gpuuva065  scur1738              3877.3             0.0
 2025-12-07 gpuuva065  scur1738              7719.3             0.0
-Totals for this user                       45294.3             0.0
+2025-12-08 gpuuva065  scur1738              5759.7             0.0
+Totals for this user                       51053.9             0.0
 
 2025-11-11 gpuuva065  scur1739                 7.3             0.0
 2025-12-07 gpuuva065  scur1739                 6.9             0.0
-Totals for this user                          14.2             0.0
+2025-12-08 gpuuva065  scur1739                16.7             0.0
+Totals for this user                          30.9             0.0
 
 2025-11-10 gpuuva065  scur1742               237.6             0.0
 2025-11-11 gpuuva065  scur1742               348.4             0.0
@@ -432,7 +451,8 @@ Totals for this user                        4109.6             0.0
 2025-12-03 gpuuva065  scur1744              4079.0             0.0
 2025-12-04 gpuuva065  scur1744              4795.2             0.0
 2025-12-05 gpuuva065  scur1744              1280.8             0.0
-Totals for this user                       18281.9             0.0
+2025-12-08 gpuuva065  scur1744               397.0             0.0
+Totals for this user                       18678.9             0.0
 
 2025-11-19 gpuuva065  scur1745                75.0             0.0
 2025-11-20 gpuuva065  scur1745               277.2             0.0
@@ -502,7 +522,8 @@ Totals for this user                       42567.1             0.0
 2025-12-04 gpuuva065  scur2156              2087.3             0.0
 2025-12-05 gpuuva065  scur2156              1780.8             0.0
 2025-12-07 gpuuva065  scur2156               474.1             0.0
-Totals for this user                       20133.6             0.0
+2025-12-08 gpuuva065  scur2156              2030.1             0.0
+Totals for this user                       22163.7             0.0
 
 2025-11-11 gpuuva065  scur2158               268.2             0.0
 2025-11-12 gpuuva065  scur2158               276.8             0.0
@@ -519,4 +540,4 @@ Totals for this user                       20133.6             0.0
 2025-12-05 gpuuva065  scur2158                61.0             0.0
 Totals for this user                        8021.2             0.0
 
-Totals for this account                   759866.7             0.0
+Totals for this account                   839643.2             0.0
