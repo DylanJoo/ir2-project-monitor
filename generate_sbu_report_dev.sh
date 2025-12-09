@@ -44,6 +44,23 @@ END {
   asort(date_list);
 
   print ""
+  print "## Group-level Usage Summary"
+  print ""
+  printf "| Group | Total SBU | Ratio |\n";
+  printf "|-------|-----------|-------|\n";
+  all_groups_total = 0
+  for (g in groups) {
+    total = group_usage[g] + 0
+    ratio = (total / TOTAL) * 100
+    all_groups_total += total
+    printf "| %-8s | %9.1f | %5.1f%% |\n", g, total, ratio
+  }
+  all_groups_ratio = (all_groups_total / TOTAL) * 100
+  printf "| %-8s | %9.1f | %5.1f%% |\n", "TOTAL", all_groups_total, all_groups_ratio
+
+
+  print ""
+  print "## User-level Usage Summary"
   printf "| %-12s |", "User";
   for (i=1;i<=n;i++) printf " %s |", date_list[i];
 	  printf " Sum | Usage (%) |\n";
@@ -64,22 +81,6 @@ END {
     ratio = (sum / TOTAL) * 100;
     printf " %8.1f | %3.1f |\n", sum, ratio;
   }
-
-  print ""
-  print "## Group-level Usage Summary"
-  print ""
-  printf "| Group | Total SBU | Ratio |\n";
-  printf "|-------|-----------|-------|\n";
-
-  all_groups_total = 0
-  for (g in groups) {
-    total = group_usage[g] + 0
-    ratio = (total / TOTAL) * 100
-    all_groups_total += total
-    printf "| %-8s | %9.1f | %5.1f%% |\n", g, total, ratio
-  }
-  all_groups_ratio = (all_groups_total / TOTAL) * 100
-  printf "| %-8s | %9.1f | %5.1f%% |\n", "TOTAL", all_groups_total, all_groups_ratio
 
 }' "$OUT_RAW" > "$OUT_MD"
 
