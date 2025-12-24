@@ -695,7 +695,8 @@ Totals for this user                        7107.4             0.0
 2025-12-20 gpuuva065  scur1900              5529.0             0.0
 2025-12-21 gpuuva065  scur1900              3090.3             0.0
 2025-12-22 gpuuva065  scur1900             20638.1             0.0
-Totals for this user                      104090.4             0.0
+2025-12-23 gpuuva065  scur1900             52272.8             0.0
+Totals for this user                      156363.3             0.0
 
 2025-11-11 gpuuva065  scur2156              2764.9             0.0
 2025-11-12 gpuuva065  scur2156              1308.4             0.0
@@ -741,4 +742,4 @@ Totals for this user                       27497.7             0.0
 2025-12-13 gpuuva065  scur2158              4287.6             0.0
 Totals for this user                       17803.6             0.0
 
-Totals for this account                  1429477.6             0.0
+Totals for this account                  1481750.4             0.0
