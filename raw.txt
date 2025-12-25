@@ -2,6 +2,9 @@ Usage data for account gpuuva065
 
 Month      Account    User                    SBUs      Restituted
 ---------- ---------- ------------ --------------- --------------- 
+2025-12-24 gpuuva065  scur1681              3691.4             0.0
+Totals for this user                        3691.4             0.0
+
 2025-11-13 gpuuva065  scur1684                15.3             0.0
 2025-11-14 gpuuva065  scur1684                35.9             0.0
 2025-11-17 gpuuva065  scur1684                92.2             0.0
@@ -128,7 +131,8 @@ Totals for this user                       25289.7             0.0
 2025-12-15 gpuuva065  scur1693              5712.6             0.0
 2025-12-18 gpuuva065  scur1693              4275.2             0.0
 2025-12-19 gpuuva065  scur1693             10013.9             0.0
-Totals for this user                       33133.3             0.0
+2025-12-24 gpuuva065  scur1693             15682.1             0.0
+Totals for this user                       48815.4             0.0
 
 2025-11-10 gpuuva065  scur1694                72.3             0.0
 2025-11-16 gpuuva065  scur1694                33.2             0.0
@@ -695,8 +699,9 @@ Totals for this user                        7107.4             0.0
 2025-12-20 gpuuva065  scur1900              5529.0             0.0
 2025-12-21 gpuuva065  scur1900              3090.3             0.0
 2025-12-22 gpuuva065  scur1900             20638.1             0.0
-2025-12-23 gpuuva065  scur1900             52272.8             0.0
-Totals for this user                      156363.3             0.0
+2025-12-23 gpuuva065  scur1900             52518.4             0.0
+2025-12-24 gpuuva065  scur1900              3390.0             0.0
+Totals for this user                      159998.8             0.0
 
 2025-11-11 gpuuva065  scur2156              2764.9             0.0
 2025-11-12 gpuuva065  scur2156              1308.4             0.0
@@ -742,4 +747,4 @@ Totals for this user                       27497.7             0.0
 2025-12-13 gpuuva065  scur2158              4287.6             0.0
 Totals for this user                       17803.6             0.0
 
-Totals for this account                  1481750.4             0.0
+Totals for this account                  1504759.6             0.0
